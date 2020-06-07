@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poblishingTest", "poblishingTest\poblishingTest.csproj", "{B26B0540-5FBA-4EE4-9FA7-BEA3BC1D3700}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9EDCB171-8799-44C5-B04F-28E8F8D6C46E} = {9EDCB171-8799-44C5-B04F-28E8F8D6C46E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9EDCB171-8799-44C5-B04F-28E8F8D6C46E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26B0540-5FBA-4EE4-9FA7-BEA3BC1D3700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26B0540-5FBA-4EE4-9FA7-BEA3BC1D3700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26B0540-5FBA-4EE4-9FA7-BEA3BC1D3700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26B0540-5FBA-4EE4-9FA7-BEA3BC1D3700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDCB171-8799-44C5-B04F-28E8F8D6C46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDCB171-8799-44C5-B04F-28E8F8D6C46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDCB171-8799-44C5-B04F-28E8F8D6C46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDCB171-8799-44C5-B04F-28E8F8D6C46E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70BB398-88FB-494C-8D4A-37C4917213EB}
+	EndGlobalSection
+EndGlobal
